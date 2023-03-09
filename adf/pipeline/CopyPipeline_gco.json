@@ -94,6 +94,22 @@
 				"typeProperties": {
 					"waitTimeInSeconds": 1
 				}
+			},
+			{
+				"name": "Wait2",
+				"type": "Wait",
+				"dependsOn": [
+					{
+						"activity": "Copy_gco",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
 			}
 		],
 		"annotations": [],
