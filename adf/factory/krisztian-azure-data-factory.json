@@ -1,0 +1,9 @@
+{
+	"name": "krisztian-azure-data-factory",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b462ec3a-b936-4fbd-a3cf-2594a7908017",
+		"tenantId": "916e9ad4-4b22-4ddd-9e4c-0b5e9b241136"
+	}
+}
